@@ -10,5 +10,5 @@ export RANLIB=$OHOS_NDK_HOME/native/llvm/bin/llvm-ranlib \
 export OBJDUMP=$OHOS_NDK_HOME/native/llvm/bin/llvm-objdump \
 export OBJCOPY=$OHOS_NDK_HOME/native/llvm/bin/llvm-objcopy \
 export NM=$OHOS_NDK_HOME/native/llvm/bin/llvm-nm \
-export CFLAGS="-target aarch64-linux-ohos --sysroot=${OHOS_NDK_HOME}/native/sysroot -D__MUSL__ -Wno-unused-command-line-argument" \
-export CXXFLAGS="-target aarch64-linux-ohos --sysroot=${OHOS_NDK_HOME}/native/sysroot -D__MUSL__ -Wno-unused-command-line-argument" \
+export CFLAGS="-target aarch64-linux-ohos --sysroot=${OHOS_NDK_HOME}/native/sysroot -D__MUSL__" \
+export CXXFLAGS="-target aarch64-linux-ohos --sysroot=${OHOS_NDK_HOME}/native/sysroot -D__MUSL__" \
